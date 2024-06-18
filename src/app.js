@@ -13,7 +13,7 @@ app.use(e.json())
 app.use(cors());
 app.use(morgan('dev'));
 
-// Routes
+// Router
 app.get('/', (req, res) => {
     res.send('<h3>Examen Backend - ITS - San Martin Lautaro</h3>')
 });
